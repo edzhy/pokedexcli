@@ -18,6 +18,11 @@ func init() {
             description: "Displays a help message",
             callback:    commandHelp,
         },
+		"map": {
+            name:        "map",
+            description: "Displays names of locations",
+            callback:    commandMap,
+        },
     }
 }
 func main() {
